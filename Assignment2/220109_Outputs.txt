@@ -1,0 +1,432 @@
+========================================================
+Q1 Output:
+========================================================
+
+--------------------------------------------------------
+[ Part A: Compute Base Hash ]
+--------------------------------------------------------
+Target Email : akulav22@iitk.ac.in
+SHA-256 Hash : 86dd7d47c2b8034185bab57cc80773586c9424d712f02753c622f2881588a7b4
+
+--------------------------------------------------------
+[ Part B: Partial Pre-image Search ]
+--------------------------------------------------------
+-> Targeting 16 bits. (Allocated Time: 3599s)...
+   [+] SUCCESS in 233285 iterations (0.0623387s)
+       Match ID  : 5004@iitk.ac.in
+       Hash Val  : 86dd66998cf4dde0334dd4489abcab5060fdbb93e01ee19d807afa1a4ffd3945
+       True Match: 19 bits
+
+-> Targeting 24 bits. (Allocated Time: 3599s)...
+   [+] SUCCESS in 8640770 iterations (1.53724s)
+       Match ID  : 5579d@iitk.ac.in
+       Hash Val  : 86dd7d377402218c0323b3b9903b834df477f01f423907ac0245a99c8d8a18c5
+       True Match: 25 bits
+
+-> Targeting 32 bits. (Allocated Time: 3598s)...
+   [+] SUCCESS in 1700178317 iterations (311.809s)
+       Match ID  : s48pzg@iitk.ac.in
+       Hash Val  : 86dd7d47a7a2f17f0e29eb81790e460b6709a7d3c315022f86e10e9c6fc01437
+       True Match: 33 bits
+
+-> Targeting 36 bits. (Allocated Time: 3286s)...
+   [!] TIMEOUT after 18110000000 hashes (3286.12s).
+
+=== LONGEST PREIMAGE MATCH ===
+Bits : 33
+Email: s48pzg@iitk.ac.in
+
+--------------------------------------------------------
+[ Part C: Preimage Benchmarking (50 Trials) ]
+--------------------------------------------------------
+>>> Running 50 trials for 16-bit match...
+   Run 01 | Hashes: 137742
+   Run 02 | Hashes: 15954
+   Run 03 | Hashes: 38164
+   Run 04 | Hashes: 76462
+   Run 05 | Hashes: 2455
+   Run 06 | Hashes: 29403
+   Run 07 | Hashes: 7160
+   Run 08 | Hashes: 25997
+   Run 09 | Hashes: 85147
+   Run 10 | Hashes: 802
+   Run 11 | Hashes: 12641
+   Run 12 | Hashes: 35495
+   Run 13 | Hashes: 23903
+   Run 14 | Hashes: 32061
+   Run 15 | Hashes: 73594
+   Run 16 | Hashes: 75255
+   Run 17 | Hashes: 25121
+   Run 18 | Hashes: 19889
+   Run 19 | Hashes: 130476
+   Run 20 | Hashes: 80993
+   Run 21 | Hashes: 4435
+   Run 22 | Hashes: 112706
+   Run 23 | Hashes: 13090
+   Run 24 | Hashes: 54922
+   Run 25 | Hashes: 74455
+   Run 26 | Hashes: 197569
+   Run 27 | Hashes: 58093
+   Run 28 | Hashes: 83865
+   Run 29 | Hashes: 214721
+   Run 30 | Hashes: 106881
+   Run 31 | Hashes: 4101
+   Run 32 | Hashes: 26416
+   Run 33 | Hashes: 64213
+   Run 34 | Hashes: 23851
+   Run 35 | Hashes: 43793
+   Run 36 | Hashes: 10555
+   Run 37 | Hashes: 96860
+   Run 38 | Hashes: 73623
+   Run 39 | Hashes: 15898
+   Run 40 | Hashes: 12035
+   Run 41 | Hashes: 2555
+   Run 42 | Hashes: 40465
+   Run 43 | Hashes: 15317
+   Run 44 | Hashes: 6255
+   Run 45 | Hashes: 11858
+   Run 46 | Hashes: 45516
+   Run 47 | Hashes: 84157
+   Run 48 | Hashes: 120552
+   Run 49 | Hashes: 111324
+   Run 50 | Hashes: 128476
+
+-> Target: 16 bits
+-> Average computations (t) : 55745.4
+-> log2(t)                  : 15.7666
+
+>>> Running 50 trials for 24-bit match...
+   Run 01 | Hashes: 3333699
+   Run 02 | Hashes: 6086748
+   Run 03 | Hashes: 29484008
+   Run 04 | Hashes: 2141571
+   Run 05 | Hashes: 13540339
+   Run 06 | Hashes: 1423161
+   Run 07 | Hashes: 95563460
+   Run 08 | Hashes: 54881974
+   Run 09 | Hashes: 590089
+   Run 10 | Hashes: 5763499
+   Run 11 | Hashes: 8567084
+   Run 12 | Hashes: 5173543
+   Run 13 | Hashes: 28225625
+   Run 14 | Hashes: 22456128
+   Run 15 | Hashes: 8502576
+   Run 16 | Hashes: 9784122
+   Run 17 | Hashes: 1587202
+   Run 18 | Hashes: 28994963
+   Run 19 | Hashes: 7112649
+   Run 20 | Hashes: 4303741
+   Run 21 | Hashes: 9996018
+   Run 22 | Hashes: 5650432
+   Run 23 | Hashes: 54326895
+   Run 24 | Hashes: 11901971
+   Run 25 | Hashes: 42033619
+   Run 26 | Hashes: 1332283
+   Run 27 | Hashes: 51905
+   Run 28 | Hashes: 5469327
+   Run 29 | Hashes: 13424828
+   Run 30 | Hashes: 1846654
+   Run 31 | Hashes: 42262230
+   Run 32 | Hashes: 978018
+   Run 33 | Hashes: 29416163
+   Run 34 | Hashes: 5989189
+   Run 35 | Hashes: 51776161
+   Run 36 | Hashes: 1778229
+   Run 37 | Hashes: 9405649
+   Run 38 | Hashes: 7872699
+   Run 39 | Hashes: 5239792
+   Run 40 | Hashes: 3689171
+   Run 41 | Hashes: 95843392
+   Run 42 | Hashes: 26716644
+   Run 43 | Hashes: 10263587
+   Run 44 | Hashes: 37414158
+   Run 45 | Hashes: 19965896
+   Run 46 | Hashes: 6205387
+   Run 47 | Hashes: 28714692
+   Run 48 | Hashes: 26281939
+   Run 49 | Hashes: 2584752
+   Run 50 | Hashes: 30613329
+
+-> Target: 24 bits
+-> Average computations (t) : 1.85312e+07
+-> log2(t)                  : 24.1435
+
+--------------------------------------------------------
+[ Part D: Analysis of Benchmark ]
+--------------------------------------------------------
+The benchmark results yield us an empirical log(t) base 2 value of
+approximately 15 point something, which closely aligns with the theoretical
+expectation of 16 for a partial pre-image attack.
+
+Because we are trying to match a predetermined 16-bit prefix,
+every hash computation acts as an independent Bernoulli trial
+with a success probability of p = 1/(2^16).
+
+The number of trials required to achieve the first success in
+this type of memoryless scenario perfectly follows a geometric
+distribution. A fundamental property of the geometric distribution
+is that the expected number of trials is the inverse of the
+success probability. Therefore, the expected number of hashes is
+1/p = 2^16 (or 65,536 trials). Taking the base-2 logarithm of
+this expected value naturally yields 16. Similar is the case with 24 bits.
+--------------------------------------------------------
+[ Part E: Birthday Collision Search ]
+--------------------------------------------------------
+-> Hunting 16-bit collision (Limit: 3599s)...
+   [+] FOUND in 333 iterations (0.000137208s)
+       First ID  : 7a@iitk.ac.in
+       Hash 1    : e23a649e7f626bf56f1402d6685c4e20abcd049e417ba5b610f2470e1662db36
+       Second ID : 98@iitk.ac.in
+       Hash 2    : e23aea912dbb75ee1fad3be02cd64b5680e027721b585341c6a803533aaef72b
+       True Match: 16 bits
+
+-> Hunting 24-bit collision (Limit: 3599s)...
+   [+] FOUND in 4605 iterations (0.0130756s)
+       First ID  : dk@iitk.ac.in
+       Hash 1    : d6584e91091c62ae5fd4443c17e071942f5e1215f2937f061117688f8ab93efa
+       Second ID : 3jw@iitk.ac.in
+       Hash 2    : d6584e29d4fe51b9b44bac516d5f73c344d4dcff512c7f25af230f74ddec8483
+       True Match: 24 bits
+
+-> Hunting 32-bit collision (Limit: 3599s)...
+   [+] FOUND in 42987 iterations (0.0210074s)
+       First ID  : loh@iitk.ac.in
+       Hash 1    : 38f8a600a8a3edc819e64113d58c35039379b120c333817c97610e6c51051495
+       Second ID : x62@iitk.ac.in
+       Hash 2    : 38f8a600122cb1fca6c1a08eb3895b2954dd1ea30b01b02e5d83d68f7fd68380
+       True Match: 32 bits
+
+-> Hunting 40-bit collision (Limit: 3599s)...
+   [+] FOUND in 2347021 iterations (0.744038s)
+       First ID  : f2fg@iitk.ac.in
+       Hash 1    : 4148f8b0b2447635cbd9593c58ec7a148248305b2a3197b9d585928ea0e0c20e
+       Second ID : 1eaz0@iitk.ac.in
+       Hash 2    : 4148f8b0b2cede5915ee248357161941bacf48528fc94ca22a5e7a97d565497b
+       True Match: 40 bits
+
+-> Hunting 48-bit collision (Limit: 3599s)...
+   [+] FOUND in 9066341 iterations (4.40322s)
+       First ID  : 1m1qi@iitk.ac.in
+       Hash 1    : 551af466173293edcfdd9deb3944de69d089e7a908e0055b7484d6594fa4306b
+       Second ID : 5ebms@iitk.ac.in
+       Hash 2    : 551af466173268b7c095ebe2a31bb9b261daa0848a0dca23928d5fc7fb738a41
+       True Match: 48 bits
+
+-> Hunting 52-bit collision (Limit: 3594s)...
+   [+] FOUND in 115189109 iterations (322.83s)
+       First ID  : htw9h@iitk.ac.in
+       Hash 1    : b89dce3ffafc790cb7a7070f703d2061fbf77bb6aa2bbf96883eae1f07902381
+       Second ID : 1wkwhg@iitk.ac.in
+       Hash 2    : b89dce3ffafc726bbafc93d4eb09790379106b95769810359d782b964e406200
+       True Match: 52 bits
+
+-> Hunting 56-bit collision (Limit: 3271s)...
+   [!] TIMEOUT after 182000000 computations.
+
+=== LONGEST COLLISION MATCH ===
+Bits: 52
+ID 1: htw9h@iitk.ac.in
+ID 2: 1wkwhg@iitk.ac.in
+
+--------------------------------------------------------
+[ Part F: 16-bit Collision Benchmarking (50 Trials) ]
+--------------------------------------------------------
+   Run 01 | Computations: 380
+   Run 02 | Computations: 478
+   Run 03 | Computations: 85
+   Run 04 | Computations: 182
+   Run 05 | Computations: 240
+   Run 06 | Computations: 193
+   Run 07 | Computations: 348
+   Run 08 | Computations: 529
+   Run 09 | Computations: 290
+   Run 10 | Computations: 125
+   Run 11 | Computations: 660
+   Run 12 | Computations: 299
+   Run 13 | Computations: 536
+   Run 14 | Computations: 428
+   Run 15 | Computations: 404
+   Run 16 | Computations: 735
+   Run 17 | Computations: 123
+   Run 18 | Computations: 70
+   Run 19 | Computations: 170
+   Run 20 | Computations: 327
+   Run 21 | Computations: 156
+   Run 22 | Computations: 265
+   Run 23 | Computations: 319
+   Run 24 | Computations: 77
+   Run 25 | Computations: 369
+   Run 26 | Computations: 362
+   Run 27 | Computations: 407
+   Run 28 | Computations: 158
+   Run 29 | Computations: 347
+   Run 30 | Computations: 405
+   Run 31 | Computations: 452
+   Run 32 | Computations: 47
+   Run 33 | Computations: 388
+   Run 34 | Computations: 169
+   Run 35 | Computations: 344
+   Run 36 | Computations: 91
+   Run 37 | Computations: 145
+   Run 38 | Computations: 327
+   Run 39 | Computations: 148
+   Run 40 | Computations: 327
+   Run 41 | Computations: 41
+   Run 42 | Computations: 249
+   Run 43 | Computations: 229
+   Run 44 | Computations: 215
+   Run 45 | Computations: 342
+   Run 46 | Computations: 181
+   Run 47 | Computations: 548
+   Run 48 | Computations: 282
+   Run 49 | Computations: 278
+   Run 50 | Computations: 432
+
+-> Average computations (t) : 294.04
+-> log2(t)                  : 8.19987
+
+--------------------------------------------------------
+[ Task G: Comparative Analysis ]
+--------------------------------------------------------
+The log(t) base 2 value derived from the collision benchmark is
+approximately 8 point something. This drop by a factor of two 
+compared to previous result demonstrates us the Birthday Paradox.
+
+This represents a fundamental shift from part (c). In a
+birthday attack, we are no longer aiming for a single, isolated
+target. Instead, every newly generated hash is compared against
+the entire pool of previously computed hashes. The number of
+possible pairings grows quadratically.
+
+Because of this combinatorial explosion, a collision becomes
+highly probable after computing roughly the square root of the
+search space (2^(n/2)). For a 16-bit target, this means the
+expected number of trials drops drastically from 2^16 to roughly
+2^8 (256). Taking the base-2 logarithm of 256 gives us 8.
+
+[ AND WE ARE DONE ]
+
+
+
+
+
+========================================================
+Q2 Output:
+========================================================
+
+======================================================
+ Part A: Miller-Rabin Primality Test
+======================================================
+  Testing Known Primes:
+  [MR Trace] Decomposed n-1 = 2^1 * d. Running 40 iterations.
+     Target: 7 -> VALID PRIME
+  [MR Trace] Decomposed n-1 = 2^2 * d. Running 40 iterations.
+     Target: 13 -> VALID PRIME
+  [MR Trace] Decomposed n-1 = 2^3 * d. Running 40 iterations.
+     Target: 104729 -> VALID PRIME
+
+  Testing Known Composites:
+     Target: 4 -> COMPOSITE
+  [MR Trace] Decomposed n-1 = 2^1 * d. Running 40 iterations.
+     Target: 15 -> COMPOSITE
+  [MR Trace] Decomposed n-1 = 2^4 * d. Running 40 iterations.
+     Target: 561 -> COMPOSITE
+
+======================================================
+ Part B: RSA 512-bit Prime Generation
+======================================================
+  [+] Discovered 512-bit prime after 112 MR attempts.
+Prime_P [512 bits]:
+  C7C4966F16A99880A791694D7DDDB71BB92329D315F71E78F92ECB649F16BA2D6EFCAA9A0EC10C83E44B41ABCD570411E2C96B8529055E60E9D2DB02D2C12CFF
+  [+] Discovered 512-bit prime after 581 MR attempts.
+Prime_Q [512 bits]:
+  92CF0BDD29C348F59B7E43B6692271D83DB0D423231978A7530746691EB8F09E45EBB53D7982235DCCE416071AEAEDDF744937692B255D1F2110884458C72E25
+  [+] Verified Prime_P is distinctly different from Prime_Q.
+
+======================================================
+ Part C: Extended Euclidean Algorithm (EEA)
+======================================================
+  Diagnostic Run: EEA(240, 46)
+  GCD [2 bits]:
+  2
+  Coeff X [4 bits]:
+  -9
+  Coeff Y [6 bits]:
+  47
+  -> Equation verification (A*X + B*Y = GCD): PASSED
+
+ Cryptographic Run: EEA(Prime_P, Prime_Q)
+  GCD(P, Q) [1 bits]:
+  1
+  -> GCD validation: PASSED (GCD is 1)
+
+======================================================
+ Part D: RSA Key Generation
+======================================================
+Modulus (N) [1023 bits]:
+  728FAF0306838FC0DD97CCE0801AE44274F6F2F152F3914E5B063495EC1429A902AB237C48036B25FCC9C0E91DB25456C3132D1585A8E4FFC9357A37A0DDCEA643585A91CDF68D95ECB4D705DE852A85DD6323D5C4E397063EBE1118A1929A10A49D18231A7433E44EC46424FB7A1283D4533E93C8BE21AE309FD0A4CE3A52DB
+Euler's Totient Phi(N) [1023 bits]:
+  728FAF0306838FC0DD97CCE0801AE44274F6F2F152F3914E5B063495EC1429A902AB237C48036B25FCC9C0E91DB25456C3132D1585A8E4FFC9357A37A0DDCEA4E8C4B8458D89AC1FA9A52A01F7850191E68F25DF8BD2FFE5F287FF4AE3C2EF44EFB4B84B923104029D950C72133820927D409BA57493662E25BC6D5DA2B1F7B8
+Public Exponent (E) [17 bits]:
+  65537
+  [+] GCD(E, Phi(N)) = 1 (Valid RSA Base)
+Private Exponent (D) [Derived via EEA] [1023 bits]:
+  68A90DE984ACF2CAEF66FC7C696CA7F672E71D420D5789FB7CBB2995820D55961B6300534D731A13A56328839066D8183FB5A82D8E63A37A6F7714C5F7884C7E6A4D36500CA3A7057235FB2FBAD2DF814C92A0B61F06D05462838E5EFBBF9E5A6B67BE2B044F156BD24D56066DBA8C3F68807AF1E893B4F919EE9037C82830B9
+  [+] Key Integrity Check (E * D mod Phi(N) == 1): VERIFIED
+
+======================================================
+ Part E: RSA 1024-bit Cryptosystem Test
+======================================================
+Plaintext Payload (M) [1021 bits]:
+  1A519783C11011D23BF5A03F91032DA9F4E389F2DC5539D2C68E7E3534CB26B991E3F735397824A743FEFF5EC736D71E5CDCD868BC9505DF8F8A924A63E21D69E895671A4B73E1A885D2B07DFA108AF8BB449C7FFE82D887E65D323B213480A2643285B9C8FB0F13D02AA349858C6B1E14BB2D844B5F4E89DDFA5D010D520D56
+Ciphertext Block (C) [1021 bits]:
+  1FDA776D5E132DC2602AD7C29080896E69D9BCFED38D68DA7B379F91E8F87A30D90E0A3FA88958EEECE8664E6E861817474F1505C0F611A30450D0A3B5EFB4CEB0AB26EE6D0C33299D84C90A87C6D096E43D83BB71A23BB14B6F59D679C0111B8B7EBD0A944860EFA94ADBF8F4AE0DDA367AE3DDE876B53589DF8B9EDDF72108
+Decrypted Payload (M') [1021 bits]:
+  1A519783C11011D23BF5A03F91032DA9F4E389F2DC5539D2C68E7E3534CB26B991E3F735397824A743FEFF5EC736D71E5CDCD868BC9505DF8F8A924A63E21D69E895671A4B73E1A885D2B07DFA108AF8BB449C7FFE82D887E65D323B213480A2643285B9C8FB0F13D02AA349858C6B1E14BB2D844B5F4E89DDFA5D010D520D56
+
+------------------------------------------------------
+  SUCCESS : M == M'
+     The decrypted output perfectly matches the initial input.
+------------------------------------------------------
+
+
+
+
+========================================================
+Q3 Output:
+========================================================
+
+========================================================
+ [B] Generating 512-bit Sophie-Germain Prime (Safe Prime)
+========================================================
+ -> Discovered SG prime architecture after 3107 tests.
+
+Sub-Prime (Q) [511-bit] : 53AB26F379E5CCAB10705ED7C07A67376AD5BD57AF4D2288F9658A7A250BFDE382FEAD85BEE7EB5B260FAD62C2B76A0024B3DE80A4FD64EE3DA54825C7D24E8B
+Safe Prime  (P) [512-bit] : A7564DE6F3CB995620E0BDAF80F4CE6ED5AB7AAF5E9A4511F2CB14F44A17FBC705FD5B0B7DCFD6B64C1F5AC5856ED4004967BD0149FAC9DC7B4A904B8FA49D17
+
+========================================================
+ [C] Hunting for a valid Generator of Z*_P
+========================================================
+ -> Valid generator located in 2 random samples.
+
+Generator (G) : 0B9581192615D01C674337A93827563F7A327B7306248B41F4BAD3752B469CFFA732F29D283CA19251D2EF5429868720DC79701B53F945C479E1AA66F04BE65F
+
+========================================================
+ [D] Simulating Diffie-Hellman Key Exchange
+========================================================
+[ ALICE ]
+  Private Key (a) : 99B5CBA48C4DC5938CD9124957E09C6211B54D8FF84516C1CF06D6DF0532F74FAF1671499691F329C8F79EB6308F8AA2D30CA42D49A429F3729A1F40B467BBE6
+  Public Broadcast (A) : 015C9B8B34F68A896CC7E82A5B4FB440B5802E1F3474A0949787F7AA5EAB8AEEAE5B34E65EE38F19F0A7EFC85F53A316600A8AAB8210E201B81C51D9FE3E829A
+
+[ BOB ]
+  Private Key (b) : 1F89DAC9F512D6256F369E06F048AB9155887E8B24F8F95CD648AC10DB790DA000D316B8899AF072E75CECD25A28EC4BA9D5844C19AF18A1286EA43D39BF378F
+  Public Broadcast (B) : 8AAC149B47D22B046AEFDAA6BBF891F8C96BA3C467EC77846F748386675E7035F94D1F122A81BF38A5979C0265EF4C9FEA0EA43B320CE65EC69533C110F7E71D
+
+[ SECRETS DERIVED ]
+  Alice's Shared Secret : 9F7001DEE48524D8AAA1AD1A5D7C9C1F95C1358D23199DF2A79815AA35B78C36E86CDE256268178B7DBF0B1588445F96CC8C7F08977E1859D775D0A27B567569
+  Bob's Shared Secret   : 9F7001DEE48524D8AAA1AD1A5D7C9C1F95C1358D23199DF2A79815AA35B78C36E86CDE256268178B7DBF0B1588445F96CC8C7F08977E1859D775D0A27B567569
+
+--------------------------------------------------------
+ >> STATUS: KEY EXCHANGE SUCCESSFUL.
+    Both parties arrived at the exact same shared secret.
+--------------------------------------------------------

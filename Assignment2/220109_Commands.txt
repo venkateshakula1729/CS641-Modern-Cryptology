@@ -1,0 +1,25 @@
+
+For Linux:
+
+g++ -O3 -std=c++11 -o Q1 220109_Q1.cpp -lcrypto
+./Q1
+
+g++ -O3 -std=c++11 -o Q2 220109_Q2.cpp -lcrypto
+./Q2
+
+g++ -O3 -std=c++11 -o Q3 220109_Q3.cpp -lcrypto
+./Q3
+
+-----------------------------------------------------------------
+
+For Mac:
+
+g++ -O3 -std=c++11 -o Q1 220109_Q1.cpp -I/opt/homebrew/opt/openssl@3/include -L/opt/homebrew/opt/openssl@3/lib -lcrypto
+./Q1
+
+g++ -O3 -std=c++11 -o Q2 220109_Q2.cpp -I/opt/homebrew/opt/openssl@3/include -L/opt/homebrew/opt/openssl@3/lib -lcrypto
+./Q2
+
+g++ -O3 -std=c++11 -o Q3 220109_Q3.cpp -I/opt/homebrew/opt/openssl@3/include -L/opt/homebrew/opt/openssl@3/lib -lcrypto
+./Q3
+
